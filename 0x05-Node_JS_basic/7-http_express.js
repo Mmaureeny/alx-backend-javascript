@@ -11,10 +11,14 @@ const DB_FILE = process.argv.length > 2 ? process.argv[2] : '';
  **/
 
 const countStudents = (dataPath) => new Promise((resolve, reject) => {
-   fs.readFile(dataPath, (err, data) => {
-     if (!dataPath) {
-       reject(new Error('Cannot load the database'));
+  if (!dataPath) {
+    reject(new Error('Cannot load the database'));
   }
+  if (dataPath) {
+    fs.readFile(dataPath, (err, data) => {
+      if (err) {
+        reject(new Error('Cannot load the database'));
+      }
       if (data) {
         const reportParts = [];
         const fileLines = data.toString('utf-8').trim().split('\n');
