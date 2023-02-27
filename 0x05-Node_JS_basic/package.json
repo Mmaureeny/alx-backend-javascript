@@ -1,7 +1,6 @@
 {
   "name": "0x05-node_js_basic",
   "version": "1.0.0",
-  "type": "module"
   "description": "0x05. NodeJS Basics 0. Executing basic javascript with Node JS",
   "main": "6-http_express.js",
   "scripts": {
