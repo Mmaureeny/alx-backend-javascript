@@ -1,4 +1,15 @@
 ES6 Basics
+## Documentation
+
+[Documentation](https://https://www.w3schools.com/js/js_es6.asp)
+
+[Rest parameters](https://https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+
+[Statements and declarations](https://https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
+
+[Arrow function expressions](https://https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+[Default parameters](https://https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
 
 is the newer version of JavaScript that was introduced in 2015. ECMAScript is the standard that JavaScript programming language uses. ECMAScript provides the specification on how JavaScript programming language should work.
 
